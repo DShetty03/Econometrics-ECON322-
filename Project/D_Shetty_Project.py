@@ -1,6 +1,7 @@
 import pandas as pd
 import statsmodels.formula.api as smf
 
+
 df = pd.read_csv("CollegeDistance.csv")
 
 # Question 1
