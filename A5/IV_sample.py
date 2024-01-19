@@ -3,6 +3,7 @@ import wooldridge as woo
 import statsmodels.formula.api as smf
 from linearmodels.iv import IV2SLS
 
+
 # %% David Card's dataset
 
 card = woo.dataWoo('card')
