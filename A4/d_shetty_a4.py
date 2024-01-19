@@ -2,6 +2,7 @@ import pandas as pd
 import statsmodels.formula.api as smf 
 import scipy.stats as stats
 
+
 df = pd.read_csv("CASchools.csv")
 dg = pd.read_csv("employment_08_09.csv")
 
