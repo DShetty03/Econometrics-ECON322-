@@ -2,8 +2,6 @@ import pandas as pd
 import statsmodels.formula.api as smf
 import matplotlib.pyplot as plt
 
-# You need to replace the input file name by a full path (e.g., r"C:\user\Documents\Earnings_and_Height.csv")
-# if the csv file is not saved under your working directory
 df = pd.read_csv("Earnings_and_Height.csv")
 
 # Question 1: What are the mean values of height and earnings, respectively? Round up the numbers up to 2 decimal points.
