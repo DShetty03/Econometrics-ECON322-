@@ -4,6 +4,7 @@ from linearmodels.iv import IV2SLS
 import pandas as pd
 import wooldridge as woo
 
+
 data = pd.read_csv('fertility.csv')
 
 #Question 1 
